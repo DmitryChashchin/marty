@@ -1,0 +1,10 @@
+index:
+    path: /
+    controller: App\Controller\HomeController::index
+
+organizations:
+    path: /organizations
+    controller: App\Controller\OrganizationController::index
+organizations_new:
+    path: /organizations/new
+    controller: App\Controller\OrganizationController::new
